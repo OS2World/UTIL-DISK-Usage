@@ -1,0 +1,5 @@
+usage.obj : usage.c
+    cl -c -G2rs -AS -W3 -Ox usage.c
+
+usage.exe : usage.obj usage.def
+    link usage, /align:16, NUL, os2, usage

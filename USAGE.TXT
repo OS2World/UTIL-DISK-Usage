@@ -1,0 +1,12 @@
+--------------------------------------------------------------------
+USAGE
+Version: 1990
+Author: John Ridges
+License: Released as Public Domain by John Ridges on 2015/11/21
+--------------------------------------------------------------------
+
+Usage is a command line tool that prints out the disk usage of all subdirectories. 
+
+Example:
+
+  usage c:\
